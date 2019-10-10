@@ -1,0 +1,15 @@
+#undertow主机名（没有特殊设置，保留空即可。）
+undertow:
+  host:
+  port: 8888
+
+#jdbc
+jdbc:
+  driver: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/local?serverTimezone=UTC
+  username: wwy
+  password: 123456
+  pool:
+    initialSize: 5
+    minIdle: 1
+    maxActive: 20
